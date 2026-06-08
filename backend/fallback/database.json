@@ -11,6 +11,338 @@
               "personId": "aaaadcc876516190690c25c6",
               "name": "Apoorv Kakar",
               "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
+              "email": null
+            },
+            {
+              "personId": "aaaadc4206f72db1a6cb5d87",
+              "name": "Vivek Agarwal",
+              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
+              "email": null
+            },
+            {
+              "personId": "aaaae3cc00461e1cb34763ce",
+              "name": "Ashish Tewari",
+              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Cashfree Payments",
+          "domain": "cashfree.com",
+          "contacts": [
+            {
+              "personId": "aaaa75ec007adfb6ffd160e6",
+              "name": "Parveen Kumar",
+              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "email": null
+            },
+            {
+              "personId": "aaaa70d7df0ca12b8f148493",
+              "name": "Nitin Pulyani",
+              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
+              "email": null
+            },
+            {
+              "personId": "aaaa6ad1f4757b3aa0056986",
+              "name": "Vikas Guru",
+              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Adyen",
+          "domain": "adyen.com",
+          "contacts": [
+            {
+              "personId": "aaaa537fd969724e534e6f5e",
+              "name": "Mahan Shahi",
+              "linkedin": "https://www.linkedin.com/in/mahanshahi",
+              "email": null
+            },
+            {
+              "personId": "aaaa16c7ca9e34659708bef6",
+              "name": "Hiukwan Tam",
+              "linkedin": "https://www.linkedin.com/in/hiukwantam",
+              "email": null
+            },
+            {
+              "personId": "aaaadf424c60a6ca8d6882a3",
+              "name": "Kane Lu",
+              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "email": null
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T13:07:48.439Z"
+    },
+    {
+      "_id": "1780924281733",
+      "seedDomain": "stripe.com",
+      "companies": [
+        {
+          "companyName": "Razorpay",
+          "domain": "razorpay.com",
+          "contacts": [
+            {
+              "personId": "aaaadcc876516190690c25c6",
+              "name": "Apoorv Kakar",
+              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
+              "email": null
+            },
+            {
+              "personId": "aaaadc4206f72db1a6cb5d87",
+              "name": "Vivek Agarwal",
+              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
+              "email": null
+            },
+            {
+              "personId": "aaaae3cc00461e1cb34763ce",
+              "name": "Ashish Tewari",
+              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Cashfree Payments",
+          "domain": "cashfree.com",
+          "contacts": [
+            {
+              "personId": "aaaa75ec007adfb6ffd160e6",
+              "name": "Parveen Kumar",
+              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "email": null
+            },
+            {
+              "personId": "aaaa70d7df0ca12b8f148493",
+              "name": "Nitin Pulyani",
+              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
+              "email": null
+            },
+            {
+              "personId": "aaaa6ad1f4757b3aa0056986",
+              "name": "Vikas Guru",
+              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Adyen",
+          "domain": "adyen.com",
+          "contacts": [
+            {
+              "personId": "aaaa537fd969724e534e6f5e",
+              "name": "Mahan Shahi",
+              "linkedin": "https://www.linkedin.com/in/mahanshahi",
+              "email": null
+            },
+            {
+              "personId": "aaaa16c7ca9e34659708bef6",
+              "name": "Hiukwan Tam",
+              "linkedin": "https://www.linkedin.com/in/hiukwantam",
+              "email": null
+            },
+            {
+              "personId": "aaaadf424c60a6ca8d6882a3",
+              "name": "Kane Lu",
+              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "email": null
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T13:11:21.730Z"
+    },
+    {
+      "_id": "1780925469837",
+      "seedDomain": "stripe.com",
+      "companies": [
+        {
+          "companyName": "Razorpay",
+          "domain": "razorpay.com",
+          "contacts": [
+            {
+              "personId": "aaaadcc876516190690c25c6",
+              "name": "Apoorv Kakar",
+              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
+              "email": null
+            },
+            {
+              "personId": "aaaadc4206f72db1a6cb5d87",
+              "name": "Vivek Agarwal",
+              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
+              "email": null
+            },
+            {
+              "personId": "aaaae3cc00461e1cb34763ce",
+              "name": "Ashish Tewari",
+              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Cashfree Payments",
+          "domain": "cashfree.com",
+          "contacts": [
+            {
+              "personId": "aaaa75ec007adfb6ffd160e6",
+              "name": "Parveen Kumar",
+              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "email": null
+            },
+            {
+              "personId": "aaaa70d7df0ca12b8f148493",
+              "name": "Nitin Pulyani",
+              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
+              "email": null
+            },
+            {
+              "personId": "aaaa6ad1f4757b3aa0056986",
+              "name": "Vikas Guru",
+              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Adyen",
+          "domain": "adyen.com",
+          "contacts": [
+            {
+              "personId": "aaaa537fd969724e534e6f5e",
+              "name": "Mahan Shahi",
+              "linkedin": "https://www.linkedin.com/in/mahanshahi",
+              "email": null
+            },
+            {
+              "personId": "aaaa16c7ca9e34659708bef6",
+              "name": "Hiukwan Tam",
+              "linkedin": "https://www.linkedin.com/in/hiukwantam",
+              "email": null
+            },
+            {
+              "personId": "aaaadf424c60a6ca8d6882a3",
+              "name": "Kane Lu",
+              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "email": null
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T13:31:09.835Z"
+    },
+    {
+      "_id": "1780925989091",
+      "seedDomain": "stripe.com",
+      "companies": [
+        {
+          "companyName": "Razorpay",
+          "domain": "razorpay.com",
+          "contacts": [
+            {
+              "personId": "aaaadcc876516190690c25c6",
+              "name": "Apoorv Kakar",
+              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
+              "email": null
+            },
+            {
+              "personId": "aaaadc4206f72db1a6cb5d87",
+              "name": "Vivek Agarwal",
+              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
+              "email": null
+            },
+            {
+              "personId": "aaaae3cc00461e1cb34763ce",
+              "name": "Ashish Tewari",
+              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Cashfree Payments",
+          "domain": "cashfree.com",
+          "contacts": [
+            {
+              "personId": "aaaa75ec007adfb6ffd160e6",
+              "name": "Parveen Kumar",
+              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "email": null
+            },
+            {
+              "personId": "aaaa70d7df0ca12b8f148493",
+              "name": "Nitin Pulyani",
+              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
+              "email": null
+            },
+            {
+              "personId": "aaaa6ad1f4757b3aa0056986",
+              "name": "Vikas Guru",
+              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Adyen",
+          "domain": "adyen.com",
+          "contacts": [
+            {
+              "personId": "aaaa537fd969724e534e6f5e",
+              "name": "Mahan Shahi",
+              "linkedin": "https://www.linkedin.com/in/mahanshahi",
+              "email": null
+            },
+            {
+              "personId": "aaaa16c7ca9e34659708bef6",
+              "name": "Hiukwan Tam",
+              "linkedin": "https://www.linkedin.com/in/hiukwantam",
+              "email": null
+            },
+            {
+              "personId": "aaaadf424c60a6ca8d6882a3",
+              "name": "Kane Lu",
+              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "email": null
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T13:39:49.085Z"
+    },
+    {
+      "_id": "1780926321870",
+      "seedDomain": "stripe.com",
+      "companies": [
+        {
+          "companyName": "Razorpay",
+          "domain": "razorpay.com",
+          "contacts": [
+            {
+              "personId": "aaaadcc876516190690c25c6",
+              "name": "Apoorv Kakar",
+              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
               "email": "apoorv.kakar@razorpay.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
@@ -96,6 +428,73 @@
       ],
       "totalCompanies": 3,
       "emailsSent": 9,
+      "status": "completed",
+      "outreachPreview": [
+        {
+          "email": "apoorv.kakar@razorpay.com",
+          "name": "Apoorv Kakar",
+          "subject": "Quick question for Razorpay",
+          "html": "\n      <p>Hi Apoorv Kakar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Razorpay"
+        },
+        {
+          "email": "vivek.agarwal@razorpay.com",
+          "name": "Vivek Agarwal",
+          "subject": "Quick question for Razorpay",
+          "html": "\n      <p>Hi Vivek Agarwal,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Razorpay"
+        },
+        {
+          "email": "ashish.tewari@razorpay.com",
+          "name": "Ashish Tewari",
+          "subject": "Quick question for Razorpay",
+          "html": "\n      <p>Hi Ashish Tewari,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Razorpay"
+        },
+        {
+          "email": "parveen.kumar@cashfree.com",
+          "name": "Parveen Kumar",
+          "subject": "Quick question for Cashfree Payments",
+          "html": "\n      <p>Hi Parveen Kumar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Cashfree Payments"
+        },
+        {
+          "email": "nitin.pulyani@cashfree.com",
+          "name": "Nitin Pulyani",
+          "subject": "Quick question for Cashfree Payments",
+          "html": "\n      <p>Hi Nitin Pulyani,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Cashfree Payments"
+        },
+        {
+          "email": "vikas.guru@cashfree.com",
+          "name": "Vikas Guru",
+          "subject": "Quick question for Cashfree Payments",
+          "html": "\n      <p>Hi Vikas Guru,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Cashfree Payments"
+        },
+        {
+          "email": "mahan.shahi@adyen.com",
+          "name": "Mahan Shahi",
+          "subject": "Quick question for Adyen",
+          "html": "\n      <p>Hi Mahan Shahi,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Adyen"
+        },
+        {
+          "email": "hiukwan.tam@adyen.com",
+          "name": "Hiukwan Tam",
+          "subject": "Quick question for Adyen",
+          "html": "\n      <p>Hi Hiukwan Tam,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Adyen"
+        },
+        {
+          "email": "kane.lu@adyen.com",
+          "name": "Kane Lu",
+          "subject": "Quick question for Adyen",
+          "html": "\n      <p>Hi Kane Lu,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "company": "Adyen"
+        }
+      ],
+      "createdAt": "2026-06-08T13:45:21.780Z",
       "brevoResult": [
         {
           "email": "apoorv.kakar@razorpay.com",
@@ -169,9 +568,7 @@
             "message": "name is missing in to"
           }
         }
-      ],
-      "status": "completed",
-      "createdAt": "2026-06-08T12:06:30.908Z"
+      ]
     }
   ]
 }

@@ -1,6 +1,8 @@
 const express=require("express");
 const cors=require("cors");
 const {connectDB}=require("./config/db");
+const emailRoutes = require("./routes/email.routes");
+
 require("dotenv").config();
 
 
@@ -18,7 +20,8 @@ app.get("/",(req,res)=>{
 })
 
 app.use("/api/pipeline",require("./routes/pipeline.routes"));
-
+app.use("/api/email", emailRoutes);
+app.use("/api", require("./routes/log.routes"));
 
 const Port=process.env.PORT ||5000;
 
