@@ -1,0 +1,177 @@
+{
+  "pipelineRuns": [
+    {
+      "seedDomain": "stripe.com",
+      "companies": [
+        {
+          "companyName": "Razorpay",
+          "domain": "razorpay.com",
+          "contacts": [
+            {
+              "personId": "aaaadcc876516190690c25c6",
+              "name": "Apoorv Kakar",
+              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
+              "email": "apoorv.kakar@razorpay.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaadc4206f72db1a6cb5d87",
+              "name": "Vivek Agarwal",
+              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
+              "email": "vivek.agarwal@razorpay.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaae3cc00461e1cb34763ce",
+              "name": "Ashish Tewari",
+              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "email": "ashish.tewari@razorpay.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            }
+          ]
+        },
+        {
+          "companyName": "Cashfree Payments",
+          "domain": "cashfree.com",
+          "contacts": [
+            {
+              "personId": "aaaa75ec007adfb6ffd160e6",
+              "name": "Parveen Kumar",
+              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "email": "parveen.kumar@cashfree.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaa70d7df0ca12b8f148493",
+              "name": "Nitin Pulyani",
+              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
+              "email": "nitin.pulyani@cashfree.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaa6ad1f4757b3aa0056986",
+              "name": "Vikas Guru",
+              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
+              "email": "vikas.guru@cashfree.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            }
+          ]
+        },
+        {
+          "companyName": "Adyen",
+          "domain": "adyen.com",
+          "contacts": [
+            {
+              "personId": "aaaa537fd969724e534e6f5e",
+              "name": "Mahan Shahi",
+              "linkedin": "https://www.linkedin.com/in/mahanshahi",
+              "email": "mahan.shahi@adyen.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaa16c7ca9e34659708bef6",
+              "name": "Hiukwan Tam",
+              "linkedin": "https://www.linkedin.com/in/hiukwantam",
+              "email": "hiukwan.tam@adyen.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaadf424c60a6ca8d6882a3",
+              "name": "Kane Lu",
+              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "email": "kane.lu@adyen.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 9,
+      "brevoResult": [
+        {
+          "email": "apoorv.kakar@razorpay.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "vivek.agarwal@razorpay.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "ashish.tewari@razorpay.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "parveen.kumar@cashfree.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "nitin.pulyani@cashfree.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "vikas.guru@cashfree.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "mahan.shahi@adyen.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "hiukwan.tam@adyen.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        },
+        {
+          "email": "kane.lu@adyen.com",
+          "status": "failed",
+          "error": {
+            "code": "missing_parameter",
+            "message": "name is missing in to"
+          }
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-06-08T12:06:30.908Z"
+    }
+  ]
+}
