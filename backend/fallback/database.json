@@ -1580,6 +1580,198 @@
       "status": "draft",
       "outreachPreview": [],
       "createdAt": "2026-06-08T18:10:40.253Z"
+    },
+    {
+      "_id": "1780943946396",
+      "seedDomain": "amazon.com",
+      "companies": [
+        {
+          "companyName": "Walmart",
+          "domain": "walmart.com",
+          "contacts": [
+            {
+              "personId": "aaaa09c2d0660a17add8165f",
+              "name": "Shawn Townzen",
+              "linkedin": "https://www.linkedin.com/in/shawn-townzen-545a0111",
+              "email": null
+            },
+            {
+              "personId": "aaaa2d32a68d4ff34009851d",
+              "name": "Andrea Albright",
+              "linkedin": "https://www.linkedin.com/in/andrea-albright-4a398aa",
+              "email": null
+            },
+            {
+              "personId": "aaaa539c5d26743aecf0e73c",
+              "name": "Howard Hacker",
+              "linkedin": "https://www.linkedin.com/in/howard-hacker-0949473",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Snapdeal",
+          "domain": "snapdeal.com",
+          "contacts": [
+            {
+              "personId": "aaaae09f337bf3905052f14a",
+              "name": "Shubham Tyagi",
+              "linkedin": "https://www.linkedin.com/in/shubham-tyagi-801296205",
+              "email": null
+            },
+            {
+              "personId": "aaaab46f2056d8c67e06e266",
+              "name": "Shikha Dawar",
+              "linkedin": "https://www.linkedin.com/in/shikha-dawar-b5910512b",
+              "email": null
+            },
+            {
+              "personId": "aaaa37f2da8b803c225c286e",
+              "name": "Kshitij Shrivastva",
+              "linkedin": "https://www.linkedin.com/in/kshitij-shrivastva-51831a113",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Marks & Spencer",
+          "domain": "marksandspencer.com",
+          "contacts": [
+            {
+              "personId": "aaaa7eaf2d9e3e6dd9f1b895",
+              "name": "Jamie Moore",
+              "linkedin": "https://www.linkedin.com/in/jamiemooremba",
+              "email": null
+            },
+            {
+              "personId": "aaaa1125d216f334b9325a63",
+              "name": "David Bennett",
+              "linkedin": "https://www.linkedin.com/in/david-bennett-9352816",
+              "email": null
+            },
+            {
+              "personId": "aaaa79d68d23f144658ec364",
+              "name": "Steve Cottrell",
+              "linkedin": "https://www.linkedin.com/in/scottrell",
+              "email": null
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T18:39:06.393Z"
+    },
+    {
+      "_id": "1780944138261",
+      "seedDomain": "stripe.com",
+      "companies": [
+        {
+          "companyName": "Razorpay",
+          "domain": "razorpay.com",
+          "contacts": [
+            {
+              "personId": "aaaadcc876516190690c25c6",
+              "name": "Apoorv Kakar",
+              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
+              "email": null
+            },
+            {
+              "personId": "aaaadc4206f72db1a6cb5d87",
+              "name": "Vivek Agarwal",
+              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
+              "email": null
+            },
+            {
+              "personId": "aaaae3cc00461e1cb34763ce",
+              "name": "Ashish Tewari",
+              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Cashfree Payments",
+          "domain": "cashfree.com",
+          "contacts": [
+            {
+              "personId": "aaaa75ec007adfb6ffd160e6",
+              "name": "Parveen Kumar",
+              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "email": null
+            },
+            {
+              "personId": "aaaa70d7df0ca12b8f148493",
+              "name": "Nitin Pulyani",
+              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
+              "email": null
+            },
+            {
+              "personId": "aaaa6ad1f4757b3aa0056986",
+              "name": "Vikas Guru",
+              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
+              "email": null
+            }
+          ]
+        },
+        {
+          "companyName": "Adyen",
+          "domain": "adyen.com",
+          "contacts": [
+            {
+              "personId": "aaaa537fd969724e534e6f5e",
+              "name": "Mahan Shahi",
+              "linkedin": "https://www.linkedin.com/in/mahanshahi",
+              "email": null
+            },
+            {
+              "personId": "aaaa16c7ca9e34659708bef6",
+              "name": "Hiukwan Tam",
+              "linkedin": "https://www.linkedin.com/in/hiukwantam",
+              "email": null
+            },
+            {
+              "personId": "aaaadf424c60a6ca8d6882a3",
+              "name": "Kane Lu",
+              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "email": null
+            }
+          ]
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T18:42:18.259Z"
+    },
+    {
+      "_id": "1780944959059",
+      "seedDomain": "amazon.com",
+      "companies": [
+        {
+          "companyName": "Walmart",
+          "domain": "walmart.com",
+          "contacts": []
+        },
+        {
+          "companyName": "Snapdeal",
+          "domain": "snapdeal.com",
+          "contacts": []
+        },
+        {
+          "companyName": "Marks & Spencer",
+          "domain": "marksandspencer.com",
+          "contacts": []
+        }
+      ],
+      "totalCompanies": 3,
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-08T18:55:59.057Z"
     }
   ]
 }

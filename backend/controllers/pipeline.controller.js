@@ -39,18 +39,24 @@ const runPipeline = async (req, res) => {
         message: "Domain is required"
       });
     }
-    
+
     console.log("Starting pipeline:", domain);
-     sendLog("Pipeline started");
+    sendLog("Pipeline started");
+
     const companies = await oceanService.getLookalikeCompanies(domain);
     const companiesToProcess = (companies || []).slice(0, 3);
+
     sendLog("Companies fetched");
+
     const enrichedCompanies = [];
     const outreachQueue = [];
 
     for (const company of companiesToProcess) {
       const companyName = company?.company?.name || "Unknown";
-      sendLog(`Processing company: ${company.company.name}`);
+
+      // FIX 1: safe access
+      sendLog(`Processing company: ${companyName}`);
+
       const companyDomainRaw = company?.company?.domain || "";
       const companyDomain = companyDomainRaw
         .replace("https://", "")
@@ -70,29 +76,35 @@ const runPipeline = async (req, res) => {
 
       for (const contact of (contacts || []).slice(0, 3)) {
         try {
-          const enriched = await prospeoEnrichService.enrichPerson(
-            contact.person.linkedin_url
-          );
+          const linkedinUrl = contact?.person?.linkedin_url;
+
+          if (!linkedinUrl) continue; // FIX 2
+
+          const enriched = await prospeoEnrichService.enrichPerson(linkedinUrl);
+
           sendLog("Contacts fetched");
+
           const email = enriched?.person?.email?.email || null;
 
           const name =
             contact?.person?.full_name ||
-            email?.split("@")[0] ||
+            (email ? email.split("@")[0] : null) ||
             "There";
 
           const contactData = {
             personId: contact?.person?.person_id,
             name,
             title: contact?.person?.job_title,
-            linkedin: contact?.person?.linkedin_url,
+            linkedin: linkedinUrl,
             email,
             emailStatus: enriched?.person?.email?.status || null,
             emailRevealed: enriched?.person?.email?.revealed || false
           };
 
           enrichedContacts.push(contactData);
-           sendLog("Enriching contacts...");
+
+          sendLog("Enriching contacts...");
+
           /*
            * BUILD EMAIL QUEUE (DO NOT SEND)
            */
@@ -105,16 +117,16 @@ const runPipeline = async (req, res) => {
             outreachQueue.push({
               email: email.trim(),
               name: name?.trim() || "There",
+
+              // FIX 3: consistent naming (must match sendEmails controller)
               subject: mail.subject,
-              html: mail.html,
+              htmlContent: mail.htmlContent,
+
               company: companyName
             });
-
-            
           }
-          sendLog("Pipeline completed");
-          await sleep(1000);
 
+          await sleep(1000);
         } catch (err) {
           console.log(
             `Enrichment failed for ${contact?.person?.full_name || "unknown"}`
@@ -165,6 +177,7 @@ const runPipeline = async (req, res) => {
   } catch (error) {
     console.error("Pipeline Error:", error);
     sendLog("Pipeline failed");
+
     return res.status(500).json({
       success: false,
       message: error.message
