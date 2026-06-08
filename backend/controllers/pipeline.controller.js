@@ -110,9 +110,9 @@ const runPipeline = async (req, res) => {
               company: companyName
             });
 
-            sendLog("Pipeline completed");
+            
           }
-
+          sendLog("Pipeline completed");
           await sleep(1000);
 
         } catch (err) {

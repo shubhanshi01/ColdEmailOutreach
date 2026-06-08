@@ -7,37 +7,38 @@ const headers = {
   "Content-Type": "application/json"
 };
 
-const getAccount = async () => {
-  const response = await axios.get(`${BREVO_URL}/account`, {
-    headers
-  });
+const SENDER_EMAIL =
+  process.env.SENDER_EMAIL ||
+  process.env.Sender_email ||
+  process.env.SENDEREMAIL ||
+  process.env.SENDER ||
+  process.env.SenderEmail ||
+  "";
 
+const getAccount = async () => {
+  const response = await axios.get(`${BREVO_URL}/account`, { headers });
   return response.data;
 };
 
 const sendEmail = async ({ to, subject, htmlContent }) => {
-  // Normalize "to"
-  const recipients = Array.isArray(to)
-    ? to
-    : [{ email: to, name: "" }];
+  const recipients = Array.isArray(to) ? to : [{ email: to, name: "" }];
 
   const cleanRecipients = recipients.map(r => ({
     email: String(r.email).trim(),
     name: r.name || ""
   }));
 
-  console.log("CLEAN RECIPIENTS:", cleanRecipients);
+  if (!SENDER_EMAIL) {
+    throw new Error("SENDER_EMAIL is not set in environment.");
+  }
 
   const response = await axios.post(
-    "https://api.brevo.com/v3/smtp/email",
+    `${BREVO_URL}/smtp/email`,
     {
-      sender: {
-        email: process.env.SENDER_EMAIL,
-        name: "Subspace"
-      },
+      sender: { email: SENDER_EMAIL, name: "Subspace" },
       to: cleanRecipients,
       subject,
-      htmlContent
+      htmlContent  // ✅ correct key
     },
     {
       headers: {
@@ -50,17 +51,15 @@ const sendEmail = async ({ to, subject, htmlContent }) => {
   return response.data;
 };
 
-// ✅ BULK SENDING (SAFE LOOP VERSION)
 const sendCampaign = async (contacts) => {
   const results = [];
 
   for (const contact of contacts) {
     try {
       const res = await sendEmail({
-        to: contact.email,
-        name: contact.name,
+        to: { email: contact.email, name: contact.name || "" },
         subject: contact.subject || "Hello",
-        htmlContent: contact.html || "<p>Hello</p>"
+        htmlContent: contact.htmlContent || "<p>Hello</p>"  // ✅ was contact.html
       });
 
       results.push({ email: contact.email, status: "sent", res });
@@ -76,8 +75,5 @@ const sendCampaign = async (contacts) => {
   return results;
 };
 
-module.exports = {
-  getAccount,
-  sendEmail,
-  sendCampaign
-};
+// ✅ Single module.exports — previously overwritten by generateEmail's export
+module.exports = { getAccount, sendEmail, sendCampaign };
