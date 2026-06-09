@@ -1,73 +1,174 @@
-const brevoService = require("../services/brevo.service");
-const PipelineRuns = require("../fallback/PipelineRuns");
+const PipelineRuns =
+  require("../fallback/PipelineRuns");
 
-/**
- * FINAL STEP → send emails after approval
- */
-const sendEmails = async (req, res) => {
+const brevoService =
+  require("../services/brevo.service");
+
+const sendEmails = async (
+  req,
+  res
+) => {
+
   try {
+
     const { runId } = req.body;
 
     if (!runId) {
+
       return res.status(400).json({
         success: false,
         message: "runId required"
       });
+
     }
 
-    const run = await PipelineRuns.findById(runId);
+    const run =
+      await PipelineRuns.findById(
+        runId
+      );
 
-    if (!run || !run.outreachPreview?.length) {
+    if (
+      !run ||
+      !run.outreachPreview ||
+      !run.outreachPreview.length
+    ) {
+
       return res.status(400).json({
         success: false,
-        message: "No emails found"
+        message:
+          "No emails found"
       });
+
     }
 
-    console.log("📨 Sending emails...");
+    console.log(
+      "📨 Sending emails..."
+    );
 
     const results = [];
 
     for (const email of run.outreachPreview) {
+
       try {
-        const result = await brevoService.sendEmail({
-          to: email.to,
-          subject: email.subject,
-          htmlContent: email.htmlContent
+
+        console.log(
+          "EMAIL RECORD:",
+          JSON.stringify(
+            email,
+            null,
+            2
+          )
+        );
+
+        if (!email.email) {
+
+          throw new Error(
+            "Missing recipient email"
+          );
+
+        }
+
+        const htmlContent =
+          email.htmlContent ||
+          email.html;
+
+        if (!htmlContent) {
+
+          throw new Error(
+            "Missing email content"
+          );
+
+        }
+
+        const result =
+          await brevoService.sendEmail({
+            to: {
+              email:
+                email.email,
+              name:
+                email.name ||
+                "Prospect"
+            },
+            subject:
+              email.subject,
+            htmlContent
+          });
+
+        console.log(
+          "EMAIL SENT:",
+          result
+        );
+
+        results.push({
+          to: email.email,
+          status: "sent"
         });
 
-        results.push({ to: email.to, status: "sent" });
-
-        await new Promise((r) => setTimeout(r, 300)); // rate limit safe
+        await new Promise(
+          (resolve) =>
+            setTimeout(
+              resolve,
+              500
+            )
+        );
 
       } catch (err) {
+
+        console.error(
+          "EMAIL FAILED:",
+          err.message
+        );
+
         results.push({
-          to: email.to,
+          to: email.email,
           status: "failed",
-          error: err.message
+          error:
+            err.message
         });
+
       }
+
     }
 
-    run.status = "sent";
-    run.emailsSent = results.filter(r => r.status === "sent").length;
-    run.sentResults = results;
-
-    await run.save();
+    await PipelineRuns.updateById(
+      runId,
+      {
+        status: "sent",
+        emailsSent:
+          results.filter(
+            (r) =>
+              r.status ===
+              "sent"
+          ).length,
+        sentResults:
+          results
+      }
+    );
 
     return res.json({
       success: true,
-      message: "Emails sent successfully",
+      message:
+        "Emails processed",
       results
     });
 
   } catch (error) {
-    console.error("Send Emails Error:", error);
+
+    console.error(
+      "Send Emails Error:",
+      error
+    );
+
     return res.status(500).json({
       success: false,
-      message: error.message
+      message:
+        error.message
     });
+
   }
+
 };
 
-module.exports = { sendEmails };
+module.exports = {
+  sendEmails
+};

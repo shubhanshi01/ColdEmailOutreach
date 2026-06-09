@@ -26,6 +26,11 @@ class PipelineRuns {
     return newRun;
   }
 
+  static async findById(id) {
+    const db = this.getData();
+    return db.pipelineRuns.find((r) => r._id === id) || null;
+  }
+
   static async updateById(id, update) {
     const db = this.getData();
 

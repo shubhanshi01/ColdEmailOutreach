@@ -122,11 +122,16 @@ const testBrevoSendEmail = async (req, res) => {
     });
 
   } catch (error) {
-    return res.status(500).json({
-      success: false,
-      message: error.response?.data || error.message
-    });
-  }
+  console.log(
+    "BREVO ERROR:",
+    JSON.stringify(error.response?.data, null, 2)
+  );
+
+  return res.status(500).json({
+    success: false,
+    error: error.response?.data || error.message
+  });
+}
 };
 
 module.exports = {

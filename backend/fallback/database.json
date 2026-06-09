@@ -1,76 +1,89 @@
 {
   "pipelineRuns": [
     {
-      "seedDomain": "stripe.com",
+      "_id": "1780997128169",
+      "seedDomain": "amazon.com",
       "companies": [
         {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
+          "companyName": "Walmart",
+          "domain": "walmart.com",
           "contacts": [
             {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": null
+              "personId": "aaaa09c2d0660a17add8165f",
+              "name": "Shawn Townzen",
+              "linkedin": "https://www.linkedin.com/in/shawn-townzen-545a0111",
+              "email": "shawn.townzen@walmart.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
             },
             {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": null
+              "personId": "aaaa2d32a68d4ff34009851d",
+              "name": "Andrea Albright",
+              "linkedin": "https://www.linkedin.com/in/andrea-albright-4a398aa",
+              "email": "andrea.albright@wal-mart.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
             },
             {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
+              "personId": "aaaa539c5d26743aecf0e73c",
+              "name": "Howard Hacker",
+              "linkedin": "https://www.linkedin.com/in/howard-hacker-0949473",
+              "email": "howard.hacker@walmart.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            }
+          ]
+        },
+        {
+          "companyName": "Snapdeal",
+          "domain": "snapdeal.com",
+          "contacts": [
+            {
+              "personId": "aaaae09f337bf3905052f14a",
+              "name": "Shubham Tyagi",
+              "linkedin": "https://www.linkedin.com/in/shubham-tyagi-801296205",
+              "email": "shubham.tyagi@snapdeal.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaab46f2056d8c67e06e266",
+              "name": "Shikha Dawar",
+              "linkedin": "https://www.linkedin.com/in/shikha-dawar-b5910512b",
+              "email": "shikha.dawar@snapdeal.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaa37f2da8b803c225c286e",
+              "name": "Kshitij Shrivastva",
+              "linkedin": "https://www.linkedin.com/in/kshitij-shrivastva-51831a113",
               "email": null
             }
           ]
         },
         {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
+          "companyName": "Marks & Spencer",
+          "domain": "marksandspencer.com",
           "contacts": [
             {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
+              "personId": "aaaa7eaf2d9e3e6dd9f1b895",
+              "name": "Jamie Moore",
+              "linkedin": "https://www.linkedin.com/in/jamiemooremba",
+              "email": "jamie.moore@marks-and-spencer.com",
+              "emailStatus": "VERIFIED",
+              "emailRevealed": true
+            },
+            {
+              "personId": "aaaa1125d216f334b9325a63",
+              "name": "David Bennett",
+              "linkedin": "https://www.linkedin.com/in/david-bennett-9352816",
               "email": null
             },
             {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": null
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
+              "personId": "aaaa79d68d23f144658ec364",
+              "name": "Steve Cottrell",
+              "linkedin": "https://www.linkedin.com/in/scottrell",
               "email": null
             }
           ]
@@ -78,739 +91,170 @@
       ],
       "totalCompanies": 3,
       "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T13:07:48.439Z"
-    },
-    {
-      "_id": "1780924281733",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": null
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": null
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": null
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": null
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T13:11:21.730Z"
-    },
-    {
-      "_id": "1780925469837",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": null
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": null
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": null
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": null
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T13:31:09.835Z"
-    },
-    {
-      "_id": "1780925989091",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": null
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": null
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": null
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": null
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T13:39:49.085Z"
-    },
-    {
-      "_id": "1780926321870",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": "apoorv.kakar@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": "vivek.agarwal@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": "ashish.tewari@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": "parveen.kumar@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": "nitin.pulyani@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": "vikas.guru@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": "mahan.shahi@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": "hiukwan.tam@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": "kane.lu@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 9,
-      "status": "completed",
+      "status": "sent",
       "outreachPreview": [
         {
-          "email": "apoorv.kakar@razorpay.com",
-          "name": "Apoorv Kakar",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Apoorv Kakar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
+          "email": "shawn.townzen@walmart.com",
+          "name": "Shawn Townzen",
+          "subject": "Exploring Opportunities at Walmart",
+          "htmlContent": "\n  <p>Hi Shawn Townzen,</p>\n\n  <p>I hope you're doing well.</p>\n\n  <p>I came across Walmart and noticed your role on the team.</p>\n\n  <p>I'm a Computer Science student actively seeking Software Development Engineer opportunities. Recently, I built an end-to-end B2B prospecting and outreach automation platform integrating Ocean.io, Prospeo, Eazyreach, and Brevo, along with several full-stack development projects.</p>\n\n  <p>I wanted to ask if there are any open SDE, Backend Engineer, Full-Stack Engineer, or New Graduate opportunities at Walmart. If appropriate, I would also greatly appreciate a referral or guidance regarding relevant openings.</p>\n\n  <p>I'd be happy to share my resume, portfolio, and project details.</p>\n\n  <br/>\n\n  <p>Thank you for your time and consideration.</p>\n\n  <p>Best regards,<br/>Shubhanshi Gupta</p>\n\n",
+          "company": "Walmart"
         },
         {
-          "email": "vivek.agarwal@razorpay.com",
-          "name": "Vivek Agarwal",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Vivek Agarwal,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
+          "email": "andrea.albright@wal-mart.com",
+          "name": "Andrea Albright",
+          "subject": "Exploring Opportunities at Walmart",
+          "htmlContent": "\n  <p>Hi Andrea Albright,</p>\n\n  <p>I hope you're doing well.</p>\n\n  <p>I came across Walmart and noticed your role on the team.</p>\n\n  <p>I'm a Computer Science student actively seeking Software Development Engineer opportunities. Recently, I built an end-to-end B2B prospecting and outreach automation platform integrating Ocean.io, Prospeo, Eazyreach, and Brevo, along with several full-stack development projects.</p>\n\n  <p>I wanted to ask if there are any open SDE, Backend Engineer, Full-Stack Engineer, or New Graduate opportunities at Walmart. If appropriate, I would also greatly appreciate a referral or guidance regarding relevant openings.</p>\n\n  <p>I'd be happy to share my resume, portfolio, and project details.</p>\n\n  <br/>\n\n  <p>Thank you for your time and consideration.</p>\n\n  <p>Best regards,<br/>Shubhanshi Gupta</p>\n\n",
+          "company": "Walmart"
         },
         {
-          "email": "ashish.tewari@razorpay.com",
-          "name": "Ashish Tewari",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Ashish Tewari,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
+          "email": "howard.hacker@walmart.com",
+          "name": "Howard Hacker",
+          "subject": "Exploring Opportunities at Walmart",
+          "htmlContent": "\n  <p>Hi Howard Hacker,</p>\n\n  <p>I hope you're doing well.</p>\n\n  <p>I came across Walmart and noticed your role on the team.</p>\n\n  <p>I'm a Computer Science student actively seeking Software Development Engineer opportunities. Recently, I built an end-to-end B2B prospecting and outreach automation platform integrating Ocean.io, Prospeo, Eazyreach, and Brevo, along with several full-stack development projects.</p>\n\n  <p>I wanted to ask if there are any open SDE, Backend Engineer, Full-Stack Engineer, or New Graduate opportunities at Walmart. If appropriate, I would also greatly appreciate a referral or guidance regarding relevant openings.</p>\n\n  <p>I'd be happy to share my resume, portfolio, and project details.</p>\n\n  <br/>\n\n  <p>Thank you for your time and consideration.</p>\n\n  <p>Best regards,<br/>Shubhanshi Gupta</p>\n\n",
+          "company": "Walmart"
         },
         {
-          "email": "parveen.kumar@cashfree.com",
-          "name": "Parveen Kumar",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Parveen Kumar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
+          "email": "shubham.tyagi@snapdeal.com",
+          "name": "Shubham Tyagi",
+          "subject": "Exploring Opportunities at Snapdeal",
+          "htmlContent": "\n  <p>Hi Shubham Tyagi,</p>\n\n  <p>I hope you're doing well.</p>\n\n  <p>I came across Snapdeal and noticed your role on the team.</p>\n\n  <p>I'm a Computer Science student actively seeking Software Development Engineer opportunities. Recently, I built an end-to-end B2B prospecting and outreach automation platform integrating Ocean.io, Prospeo, Eazyreach, and Brevo, along with several full-stack development projects.</p>\n\n  <p>I wanted to ask if there are any open SDE, Backend Engineer, Full-Stack Engineer, or New Graduate opportunities at Snapdeal. If appropriate, I would also greatly appreciate a referral or guidance regarding relevant openings.</p>\n\n  <p>I'd be happy to share my resume, portfolio, and project details.</p>\n\n  <br/>\n\n  <p>Thank you for your time and consideration.</p>\n\n  <p>Best regards,<br/>Shubhanshi Gupta</p>\n\n",
+          "company": "Snapdeal"
         },
         {
-          "email": "nitin.pulyani@cashfree.com",
-          "name": "Nitin Pulyani",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Nitin Pulyani,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
+          "email": "shikha.dawar@snapdeal.com",
+          "name": "Shikha Dawar",
+          "subject": "Exploring Opportunities at Snapdeal",
+          "htmlContent": "\n  <p>Hi Shikha Dawar,</p>\n\n  <p>I hope you're doing well.</p>\n\n  <p>I came across Snapdeal and noticed your role on the team.</p>\n\n  <p>I'm a Computer Science student actively seeking Software Development Engineer opportunities. Recently, I built an end-to-end B2B prospecting and outreach automation platform integrating Ocean.io, Prospeo, Eazyreach, and Brevo, along with several full-stack development projects.</p>\n\n  <p>I wanted to ask if there are any open SDE, Backend Engineer, Full-Stack Engineer, or New Graduate opportunities at Snapdeal. If appropriate, I would also greatly appreciate a referral or guidance regarding relevant openings.</p>\n\n  <p>I'd be happy to share my resume, portfolio, and project details.</p>\n\n  <br/>\n\n  <p>Thank you for your time and consideration.</p>\n\n  <p>Best regards,<br/>Shubhanshi Gupta</p>\n\n",
+          "company": "Snapdeal"
         },
         {
-          "email": "vikas.guru@cashfree.com",
-          "name": "Vikas Guru",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Vikas Guru,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "mahan.shahi@adyen.com",
-          "name": "Mahan Shahi",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Mahan Shahi,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        },
-        {
-          "email": "hiukwan.tam@adyen.com",
-          "name": "Hiukwan Tam",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Hiukwan Tam,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        },
-        {
-          "email": "kane.lu@adyen.com",
-          "name": "Kane Lu",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Kane Lu,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
+          "email": "jamie.moore@marks-and-spencer.com",
+          "name": "Jamie Moore",
+          "subject": "Exploring Opportunities at Marks & Spencer",
+          "htmlContent": "\n  <p>Hi Jamie Moore,</p>\n\n  <p>I hope you're doing well.</p>\n\n  <p>I came across Marks & Spencer and noticed your role on the team.</p>\n\n  <p>I'm a Computer Science student actively seeking Software Development Engineer opportunities. Recently, I built an end-to-end B2B prospecting and outreach automation platform integrating Ocean.io, Prospeo, Eazyreach, and Brevo, along with several full-stack development projects.</p>\n\n  <p>I wanted to ask if there are any open SDE, Backend Engineer, Full-Stack Engineer, or New Graduate opportunities at Marks & Spencer. If appropriate, I would also greatly appreciate a referral or guidance regarding relevant openings.</p>\n\n  <p>I'd be happy to share my resume, portfolio, and project details.</p>\n\n  <br/>\n\n  <p>Thank you for your time and consideration.</p>\n\n  <p>Best regards,<br/>Shubhanshi Gupta</p>\n\n",
+          "company": "Marks & Spencer"
         }
       ],
-      "createdAt": "2026-06-08T13:45:21.780Z",
-      "brevoResult": [
+      "createdAt": "2026-06-09T09:25:28.168Z",
+      "sentResults": [
         {
-          "email": "apoorv.kakar@razorpay.com",
+          "to": "shawn.townzen@walmart.com",
           "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
+          "error": "Key not found"
         },
         {
-          "email": "vivek.agarwal@razorpay.com",
+          "to": "andrea.albright@wal-mart.com",
           "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
+          "error": "Key not found"
         },
         {
-          "email": "ashish.tewari@razorpay.com",
+          "to": "howard.hacker@walmart.com",
           "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
+          "error": "Key not found"
         },
         {
-          "email": "parveen.kumar@cashfree.com",
+          "to": "shubham.tyagi@snapdeal.com",
           "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
+          "error": "Key not found"
         },
         {
-          "email": "nitin.pulyani@cashfree.com",
+          "to": "shikha.dawar@snapdeal.com",
           "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
+          "error": "Key not found"
         },
         {
-          "email": "vikas.guru@cashfree.com",
+          "to": "jamie.moore@marks-and-spencer.com",
           "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "mahan.shahi@adyen.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "hiukwan.tam@adyen.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "kane.lu@adyen.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
+          "error": "Key not found"
         }
       ]
     },
     {
-      "_id": "1780927969334",
-      "seedDomain": "stripe.com",
+      "_id": "1780997597530",
+      "seedDomain": "amazon.com",
       "companies": [
         {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
+          "companyName": "Walmart",
+          "domain": "walmart.com",
           "contacts": [
             {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": "apoorv.kakar@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa09c2d0660a17add8165f",
+              "name": "Shawn Townzen",
+              "linkedin": "https://www.linkedin.com/in/shawn-townzen-545a0111",
+              "email": null
             },
             {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": "vivek.agarwal@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa2d32a68d4ff34009851d",
+              "name": "Andrea Albright",
+              "linkedin": "https://www.linkedin.com/in/andrea-albright-4a398aa",
+              "email": null
             },
             {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": "ashish.tewari@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa539c5d26743aecf0e73c",
+              "name": "Howard Hacker",
+              "linkedin": "https://www.linkedin.com/in/howard-hacker-0949473",
+              "email": null
             }
           ]
         },
         {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
+          "companyName": "Snapdeal",
+          "domain": "snapdeal.com",
           "contacts": [
             {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": "parveen.kumar@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaae09f337bf3905052f14a",
+              "name": "Shubham Tyagi",
+              "linkedin": "https://www.linkedin.com/in/shubham-tyagi-801296205",
+              "email": null
             },
             {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": "nitin.pulyani@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaab46f2056d8c67e06e266",
+              "name": "Shikha Dawar",
+              "linkedin": "https://www.linkedin.com/in/shikha-dawar-b5910512b",
+              "email": null
             },
             {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": "vikas.guru@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa37f2da8b803c225c286e",
+              "name": "Kshitij Shrivastva",
+              "linkedin": "https://www.linkedin.com/in/kshitij-shrivastva-51831a113",
+              "email": null
             }
           ]
         },
         {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
+          "companyName": "Marks & Spencer",
+          "domain": "marksandspencer.com",
           "contacts": [
             {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": "mahan.shahi@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa7eaf2d9e3e6dd9f1b895",
+              "name": "Jamie Moore",
+              "linkedin": "https://www.linkedin.com/in/jamiemooremba",
+              "email": null
             },
             {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": "hiukwan.tam@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa1125d216f334b9325a63",
+              "name": "David Bennett",
+              "linkedin": "https://www.linkedin.com/in/david-bennett-9352816",
+              "email": null
             },
             {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": "kane.lu@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
+              "personId": "aaaa79d68d23f144658ec364",
+              "name": "Steve Cottrell",
+              "linkedin": "https://www.linkedin.com/in/scottrell",
+              "email": null
             }
           ]
         }
       ],
       "totalCompanies": 3,
-      "emailsSent": 9,
-      "status": "completed",
-      "outreachPreview": [
-        {
-          "email": "apoorv.kakar@razorpay.com",
-          "name": "Apoorv Kakar",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Apoorv Kakar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "vivek.agarwal@razorpay.com",
-          "name": "Vivek Agarwal",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Vivek Agarwal,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "ashish.tewari@razorpay.com",
-          "name": "Ashish Tewari",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Ashish Tewari,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "parveen.kumar@cashfree.com",
-          "name": "Parveen Kumar",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Parveen Kumar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "nitin.pulyani@cashfree.com",
-          "name": "Nitin Pulyani",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Nitin Pulyani,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "vikas.guru@cashfree.com",
-          "name": "Vikas Guru",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Vikas Guru,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "mahan.shahi@adyen.com",
-          "name": "Mahan Shahi",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Mahan Shahi,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        },
-        {
-          "email": "hiukwan.tam@adyen.com",
-          "name": "Hiukwan Tam",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Hiukwan Tam,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        },
-        {
-          "email": "kane.lu@adyen.com",
-          "name": "Kane Lu",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Kane Lu,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        }
-      ],
-      "createdAt": "2026-06-08T14:12:49.332Z",
-      "brevoResult": [
-        {
-          "email": "apoorv.kakar@razorpay.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "vivek.agarwal@razorpay.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "ashish.tewari@razorpay.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "parveen.kumar@cashfree.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "nitin.pulyani@cashfree.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "vikas.guru@cashfree.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "mahan.shahi@adyen.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "hiukwan.tam@adyen.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        },
-        {
-          "email": "kane.lu@adyen.com",
-          "status": "failed",
-          "error": {
-            "code": "missing_parameter",
-            "message": "name is missing in to"
-          }
-        }
-      ]
+      "emailsSent": 0,
+      "status": "draft",
+      "outreachPreview": [],
+      "createdAt": "2026-06-09T09:33:17.529Z"
     },
     {
-      "_id": "1780936346510",
+      "_id": "1780998040293",
       "seedDomain": "amazon.com",
       "companies": [
         {
@@ -903,157 +347,191 @@
         }
       ],
       "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
+      "emailsSent": 8,
+      "status": "sent",
       "outreachPreview": [
         {
           "email": "shawn.townzen@walmart.com",
           "name": "Shawn Townzen",
-          "subject": "Quick question for Walmart",
-          "html": "\n      <p>Hi Shawn Townzen,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Walmart.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Walmart",
+          "htmlContent": "\n      <p>Hi Shawn Townzen,</p>\n\n      <p>I came across Walmart and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Walmart"
         },
         {
           "email": "andrea.albright@wal-mart.com",
           "name": "Andrea Albright",
-          "subject": "Quick question for Walmart",
-          "html": "\n      <p>Hi Andrea Albright,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Walmart.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Walmart",
+          "htmlContent": "\n      <p>Hi Andrea Albright,</p>\n\n      <p>I came across Walmart and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Walmart"
         },
         {
           "email": "howard.hacker@walmart.com",
           "name": "Howard Hacker",
-          "subject": "Quick question for Walmart",
-          "html": "\n      <p>Hi Howard Hacker,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Walmart.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Walmart",
+          "htmlContent": "\n      <p>Hi Howard Hacker,</p>\n\n      <p>I came across Walmart and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Walmart"
         },
         {
           "email": "shubham.tyagi@snapdeal.com",
           "name": "Shubham Tyagi",
-          "subject": "Quick question for Snapdeal",
-          "html": "\n      <p>Hi Shubham Tyagi,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Snapdeal.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Snapdeal",
+          "htmlContent": "\n      <p>Hi Shubham Tyagi,</p>\n\n      <p>I came across Snapdeal and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Snapdeal"
         },
         {
           "email": "shikha.dawar@snapdeal.com",
           "name": "Shikha Dawar",
-          "subject": "Quick question for Snapdeal",
-          "html": "\n      <p>Hi Shikha Dawar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Snapdeal.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Snapdeal",
+          "htmlContent": "\n      <p>Hi Shikha Dawar,</p>\n\n      <p>I came across Snapdeal and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Snapdeal"
         },
         {
           "email": "jamie.moore@marks-and-spencer.com",
           "name": "Jamie Moore",
-          "subject": "Quick question for Marks & Spencer",
-          "html": "\n      <p>Hi Jamie Moore,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Marks & Spencer.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Marks & Spencer",
+          "htmlContent": "\n      <p>Hi Jamie Moore,</p>\n\n      <p>I came across Marks & Spencer and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Marks & Spencer"
         },
         {
           "email": "david.bennett@marksandspencer.com",
           "name": "David Bennett",
-          "subject": "Quick question for Marks & Spencer",
-          "html": "\n      <p>Hi David Bennett,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Marks & Spencer.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Marks & Spencer",
+          "htmlContent": "\n      <p>Hi David Bennett,</p>\n\n      <p>I came across Marks & Spencer and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Marks & Spencer"
         },
         {
           "email": "steve.cottrell@marks-and-spencer.com",
           "name": "Steve Cottrell",
-          "subject": "Quick question for Marks & Spencer",
-          "html": "\n      <p>Hi Steve Cottrell,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Marks & Spencer.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
+          "subject": "Quick question about Marks & Spencer",
+          "htmlContent": "\n      <p>Hi Steve Cottrell,</p>\n\n      <p>I came across Marks & Spencer and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
           "company": "Marks & Spencer"
         }
       ],
-      "createdAt": "2026-06-08T16:32:26.507Z"
+      "createdAt": "2026-06-09T09:40:40.292Z",
+      "sentResults": [
+        {
+          "to": "shawn.townzen@walmart.com",
+          "status": "sent"
+        },
+        {
+          "to": "andrea.albright@wal-mart.com",
+          "status": "sent"
+        },
+        {
+          "to": "howard.hacker@walmart.com",
+          "status": "sent"
+        },
+        {
+          "to": "shubham.tyagi@snapdeal.com",
+          "status": "sent"
+        },
+        {
+          "to": "shikha.dawar@snapdeal.com",
+          "status": "sent"
+        },
+        {
+          "to": "jamie.moore@marks-and-spencer.com",
+          "status": "sent"
+        },
+        {
+          "to": "david.bennett@marksandspencer.com",
+          "status": "sent"
+        },
+        {
+          "to": "steve.cottrell@marks-and-spencer.com",
+          "status": "sent"
+        }
+      ]
     },
     {
-      "_id": "1780940034412",
-      "seedDomain": "stripe.com",
+      "_id": "1780998256190",
+      "seedDomain": "phonepe.com",
       "companies": [
         {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
+          "companyName": "MobiKwik",
+          "domain": "mobikwik.com",
           "contacts": [
             {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": "apoorv.kakar@razorpay.com",
+              "personId": "aaaa72b213363c8a41f9e82e",
+              "name": "Swati Singh",
+              "linkedin": "https://www.linkedin.com/in/swati-singh-0020b622",
+              "email": "swati.singh@mobikwik.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             },
             {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": "vivek.agarwal@razorpay.com",
+              "personId": "aaaab10efa16e20c6be5efc7",
+              "name": "Dhruv Wadhera",
+              "linkedin": "https://www.linkedin.com/in/dhruv-wadhera",
+              "email": "dhruv.wadhera@mobikwik.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             },
             {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": "ashish.tewari@razorpay.com",
+              "personId": "aaaa047bf0388ab8bd60e46e",
+              "name": "Mohit Narain",
+              "linkedin": "https://www.linkedin.com/in/mohitnarain",
+              "email": "mohit.narain@mobikwik.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             }
           ]
         },
         {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
+          "companyName": "GCash",
+          "domain": "gcash.com",
           "contacts": [
             {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": "parveen.kumar@cashfree.com",
+              "personId": "aaaa156da246c2ba6c5f1539",
+              "name": "Luis Buenaventura",
+              "linkedin": "https://www.linkedin.com/in/helloluis",
+              "email": "luis.buenaventura@gcash.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             },
             {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": "nitin.pulyani@cashfree.com",
+              "personId": "aaaa0738e18c3acafff42237",
+              "name": "Neil Trinidad",
+              "linkedin": "https://www.linkedin.com/in/neil-trinidad-82715b147",
+              "email": "neil.trinidad@gcash.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             },
             {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": "vikas.guru@cashfree.com",
+              "personId": "aaaa99f682d1d710d85af0f1",
+              "name": "Francesca Silvestre Cruz",
+              "linkedin": "https://www.linkedin.com/in/francesca-silvestre-cruz-4279287",
+              "email": "francesca.cruz@gcash.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             }
           ]
         },
         {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
+          "companyName": "Freecharge",
+          "domain": "freecharge.in",
           "contacts": [
             {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": "mahan.shahi@adyen.com",
+              "personId": "aaaaaf6e452a705cf0c8a65c",
+              "name": "Sumit Bhatnagar",
+              "linkedin": "https://www.linkedin.com/in/sumit-bhatnagar-ba00175",
+              "email": "sumit.bhatnagar@freecharge.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             },
             {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": "hiukwan.tam@adyen.com",
+              "personId": "aaaa06f3587ca673a3794329",
+              "name": "Anil Singh",
+              "linkedin": "https://www.linkedin.com/in/anil-singh-51832522",
+              "email": "anil.singh@freecharge.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             },
             {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": "kane.lu@adyen.com",
+              "personId": "aaaaa824cd71be21b2249795",
+              "name": "Parag Chopde",
+              "linkedin": "https://www.linkedin.com/in/paragchopde",
+              "email": "parag.chopde@freecharge.com",
               "emailStatus": "VERIFIED",
               "emailRevealed": true
             }
@@ -1062,716 +540,111 @@
       ],
       "totalCompanies": 3,
       "emailsSent": 9,
-      "status": "completed",
+      "status": "sent",
       "outreachPreview": [
         {
-          "email": "apoorv.kakar@razorpay.com",
-          "name": "Apoorv Kakar",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Apoorv Kakar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
+          "email": "swati.singh@mobikwik.com",
+          "name": "Swati Singh",
+          "subject": "Quick question about MobiKwik",
+          "htmlContent": "\n      <p>Hi Swati Singh,</p>\n\n      <p>I came across MobiKwik and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "MobiKwik"
         },
         {
-          "email": "vivek.agarwal@razorpay.com",
-          "name": "Vivek Agarwal",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Vivek Agarwal,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
+          "email": "dhruv.wadhera@mobikwik.com",
+          "name": "Dhruv Wadhera",
+          "subject": "Quick question about MobiKwik",
+          "htmlContent": "\n      <p>Hi Dhruv Wadhera,</p>\n\n      <p>I came across MobiKwik and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "MobiKwik"
         },
         {
-          "email": "ashish.tewari@razorpay.com",
-          "name": "Ashish Tewari",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Ashish Tewari,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
+          "email": "mohit.narain@mobikwik.com",
+          "name": "Mohit Narain",
+          "subject": "Quick question about MobiKwik",
+          "htmlContent": "\n      <p>Hi Mohit Narain,</p>\n\n      <p>I came across MobiKwik and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "MobiKwik"
         },
         {
-          "email": "parveen.kumar@cashfree.com",
-          "name": "Parveen Kumar",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Parveen Kumar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
+          "email": "luis.buenaventura@gcash.com",
+          "name": "Luis Buenaventura",
+          "subject": "Quick question about GCash",
+          "htmlContent": "\n      <p>Hi Luis Buenaventura,</p>\n\n      <p>I came across GCash and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "GCash"
         },
         {
-          "email": "nitin.pulyani@cashfree.com",
-          "name": "Nitin Pulyani",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Nitin Pulyani,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
+          "email": "neil.trinidad@gcash.com",
+          "name": "Neil Trinidad",
+          "subject": "Quick question about GCash",
+          "htmlContent": "\n      <p>Hi Neil Trinidad,</p>\n\n      <p>I came across GCash and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "GCash"
         },
         {
-          "email": "vikas.guru@cashfree.com",
-          "name": "Vikas Guru",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Vikas Guru,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
+          "email": "francesca.cruz@gcash.com",
+          "name": "Francesca Silvestre Cruz",
+          "subject": "Quick question about GCash",
+          "htmlContent": "\n      <p>Hi Francesca Silvestre Cruz,</p>\n\n      <p>I came across GCash and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "GCash"
         },
         {
-          "email": "mahan.shahi@adyen.com",
-          "name": "Mahan Shahi",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Mahan Shahi,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
+          "email": "sumit.bhatnagar@freecharge.com",
+          "name": "Sumit Bhatnagar",
+          "subject": "Quick question about Freecharge",
+          "htmlContent": "\n      <p>Hi Sumit Bhatnagar,</p>\n\n      <p>I came across Freecharge and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "Freecharge"
         },
         {
-          "email": "hiukwan.tam@adyen.com",
-          "name": "Hiukwan Tam",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Hiukwan Tam,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
+          "email": "anil.singh@freecharge.com",
+          "name": "Anil Singh",
+          "subject": "Quick question about Freecharge",
+          "htmlContent": "\n      <p>Hi Anil Singh,</p>\n\n      <p>I came across Freecharge and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "Freecharge"
         },
         {
-          "email": "kane.lu@adyen.com",
-          "name": "Kane Lu",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Kane Lu,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
+          "email": "parag.chopde@freecharge.com",
+          "name": "Parag Chopde",
+          "subject": "Quick question about Freecharge",
+          "htmlContent": "\n      <p>Hi Parag Chopde,</p>\n\n      <p>I came across Freecharge and noticed your role in the team.</p>\n\n      <p>We help companies discover similar high-intent prospects and automate outreach pipelines end-to-end.</p>\n\n      <p>Would you be open to a quick conversation?</p>\n\n      <br/>\n\n      <p>Best,<br/>Shubhanshi Gupta</p>\n    ",
+          "company": "Freecharge"
         }
       ],
-      "createdAt": "2026-06-08T17:33:54.409Z",
-      "brevoResult": [
+      "createdAt": "2026-06-09T09:44:16.188Z",
+      "sentResults": [
         {
-          "email": "apoorv.kakar@razorpay.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "swati.singh@mobikwik.com",
+          "status": "sent"
         },
         {
-          "email": "vivek.agarwal@razorpay.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "dhruv.wadhera@mobikwik.com",
+          "status": "sent"
         },
         {
-          "email": "ashish.tewari@razorpay.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "mohit.narain@mobikwik.com",
+          "status": "sent"
         },
         {
-          "email": "parveen.kumar@cashfree.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "luis.buenaventura@gcash.com",
+          "status": "sent"
         },
         {
-          "email": "nitin.pulyani@cashfree.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "neil.trinidad@gcash.com",
+          "status": "sent"
         },
         {
-          "email": "vikas.guru@cashfree.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "francesca.cruz@gcash.com",
+          "status": "sent"
         },
         {
-          "email": "mahan.shahi@adyen.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "sumit.bhatnagar@freecharge.com",
+          "status": "sent"
         },
         {
-          "email": "hiukwan.tam@adyen.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "anil.singh@freecharge.com",
+          "status": "sent"
         },
         {
-          "email": "kane.lu@adyen.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
+          "to": "parag.chopde@freecharge.com",
+          "status": "sent"
         }
       ]
-    },
-    {
-      "_id": "1780940697090",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": "apoorv.kakar@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": "vivek.agarwal@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": "ashish.tewari@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": "parveen.kumar@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": "nitin.pulyani@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": "vikas.guru@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": "mahan.shahi@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": "hiukwan.tam@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": "kane.lu@adyen.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [
-        {
-          "email": "apoorv.kakar@razorpay.com",
-          "name": "Apoorv Kakar",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Apoorv Kakar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "vivek.agarwal@razorpay.com",
-          "name": "Vivek Agarwal",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Vivek Agarwal,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "ashish.tewari@razorpay.com",
-          "name": "Ashish Tewari",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Ashish Tewari,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "parveen.kumar@cashfree.com",
-          "name": "Parveen Kumar",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Parveen Kumar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "nitin.pulyani@cashfree.com",
-          "name": "Nitin Pulyani",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Nitin Pulyani,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "vikas.guru@cashfree.com",
-          "name": "Vikas Guru",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Vikas Guru,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "mahan.shahi@adyen.com",
-          "name": "Mahan Shahi",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Mahan Shahi,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        },
-        {
-          "email": "hiukwan.tam@adyen.com",
-          "name": "Hiukwan Tam",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Hiukwan Tam,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        },
-        {
-          "email": "kane.lu@adyen.com",
-          "name": "Kane Lu",
-          "subject": "Quick question for Adyen",
-          "html": "\n      <p>Hi Kane Lu,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Adyen.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Adyen"
-        }
-      ],
-      "createdAt": "2026-06-08T17:44:57.083Z"
-    },
-    {
-      "_id": "1780942087603",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": "apoorv.kakar@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": "vivek.agarwal@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": "ashish.tewari@razorpay.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": "parveen.kumar@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": "nitin.pulyani@cashfree.com",
-              "emailStatus": "VERIFIED",
-              "emailRevealed": true
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 5,
-      "status": "completed",
-      "outreachPreview": [
-        {
-          "email": "apoorv.kakar@razorpay.com",
-          "name": "Apoorv Kakar",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Apoorv Kakar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "vivek.agarwal@razorpay.com",
-          "name": "Vivek Agarwal",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Vivek Agarwal,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "ashish.tewari@razorpay.com",
-          "name": "Ashish Tewari",
-          "subject": "Quick question for Razorpay",
-          "html": "\n      <p>Hi Ashish Tewari,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Razorpay.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Razorpay"
-        },
-        {
-          "email": "parveen.kumar@cashfree.com",
-          "name": "Parveen Kumar",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Parveen Kumar,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        },
-        {
-          "email": "nitin.pulyani@cashfree.com",
-          "name": "Nitin Pulyani",
-          "subject": "Quick question for Cashfree Payments",
-          "html": "\n      <p>Hi Nitin Pulyani,</p>\n\n      <p>\n      I noticed you're part of the team at\n      Cashfree Payments.\n      </p>\n\n      <p>\n      We've built an AI platform that helps\n      sales teams automatically discover\n      lookalike companies, find decision makers,\n      and verify work emails.\n      </p>\n\n      <p>\n      Would you be open to a quick discussion?\n      </p>\n\n      <p>\n      Regards,<br/>\n      Shubhanshi\n      </p>\n    ",
-          "company": "Cashfree Payments"
-        }
-      ],
-      "createdAt": "2026-06-08T18:08:07.600Z",
-      "brevoResult": [
-        {
-          "email": "apoorv.kakar@razorpay.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
-        },
-        {
-          "email": "vivek.agarwal@razorpay.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
-        },
-        {
-          "email": "ashish.tewari@razorpay.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
-        },
-        {
-          "email": "parveen.kumar@cashfree.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
-        },
-        {
-          "email": "nitin.pulyani@cashfree.com",
-          "status": "failed",
-          "error": "SENDER_EMAIL is not set in environment. Please set SENDER_EMAIL in your .env"
-        }
-      ]
-    },
-    {
-      "_id": "1780942240254",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": null
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": null
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": null
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": null
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T18:10:40.253Z"
-    },
-    {
-      "_id": "1780943946396",
-      "seedDomain": "amazon.com",
-      "companies": [
-        {
-          "companyName": "Walmart",
-          "domain": "walmart.com",
-          "contacts": [
-            {
-              "personId": "aaaa09c2d0660a17add8165f",
-              "name": "Shawn Townzen",
-              "linkedin": "https://www.linkedin.com/in/shawn-townzen-545a0111",
-              "email": null
-            },
-            {
-              "personId": "aaaa2d32a68d4ff34009851d",
-              "name": "Andrea Albright",
-              "linkedin": "https://www.linkedin.com/in/andrea-albright-4a398aa",
-              "email": null
-            },
-            {
-              "personId": "aaaa539c5d26743aecf0e73c",
-              "name": "Howard Hacker",
-              "linkedin": "https://www.linkedin.com/in/howard-hacker-0949473",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Snapdeal",
-          "domain": "snapdeal.com",
-          "contacts": [
-            {
-              "personId": "aaaae09f337bf3905052f14a",
-              "name": "Shubham Tyagi",
-              "linkedin": "https://www.linkedin.com/in/shubham-tyagi-801296205",
-              "email": null
-            },
-            {
-              "personId": "aaaab46f2056d8c67e06e266",
-              "name": "Shikha Dawar",
-              "linkedin": "https://www.linkedin.com/in/shikha-dawar-b5910512b",
-              "email": null
-            },
-            {
-              "personId": "aaaa37f2da8b803c225c286e",
-              "name": "Kshitij Shrivastva",
-              "linkedin": "https://www.linkedin.com/in/kshitij-shrivastva-51831a113",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Marks & Spencer",
-          "domain": "marksandspencer.com",
-          "contacts": [
-            {
-              "personId": "aaaa7eaf2d9e3e6dd9f1b895",
-              "name": "Jamie Moore",
-              "linkedin": "https://www.linkedin.com/in/jamiemooremba",
-              "email": null
-            },
-            {
-              "personId": "aaaa1125d216f334b9325a63",
-              "name": "David Bennett",
-              "linkedin": "https://www.linkedin.com/in/david-bennett-9352816",
-              "email": null
-            },
-            {
-              "personId": "aaaa79d68d23f144658ec364",
-              "name": "Steve Cottrell",
-              "linkedin": "https://www.linkedin.com/in/scottrell",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T18:39:06.393Z"
-    },
-    {
-      "_id": "1780944138261",
-      "seedDomain": "stripe.com",
-      "companies": [
-        {
-          "companyName": "Razorpay",
-          "domain": "razorpay.com",
-          "contacts": [
-            {
-              "personId": "aaaadcc876516190690c25c6",
-              "name": "Apoorv Kakar",
-              "linkedin": "https://www.linkedin.com/in/apoorv-kakar-034100257",
-              "email": null
-            },
-            {
-              "personId": "aaaadc4206f72db1a6cb5d87",
-              "name": "Vivek Agarwal",
-              "linkedin": "https://www.linkedin.com/in/vivek-agarwal-03575711",
-              "email": null
-            },
-            {
-              "personId": "aaaae3cc00461e1cb34763ce",
-              "name": "Ashish Tewari",
-              "linkedin": "https://www.linkedin.com/in/ashish-tewari-9403b08",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Cashfree Payments",
-          "domain": "cashfree.com",
-          "contacts": [
-            {
-              "personId": "aaaa75ec007adfb6ffd160e6",
-              "name": "Parveen Kumar",
-              "linkedin": "https://www.linkedin.com/in/parveen-kumar-88b82216",
-              "email": null
-            },
-            {
-              "personId": "aaaa70d7df0ca12b8f148493",
-              "name": "Nitin Pulyani",
-              "linkedin": "https://www.linkedin.com/in/nitinpulyani",
-              "email": null
-            },
-            {
-              "personId": "aaaa6ad1f4757b3aa0056986",
-              "name": "Vikas Guru",
-              "linkedin": "https://www.linkedin.com/in/vikas-guru-42745b13",
-              "email": null
-            }
-          ]
-        },
-        {
-          "companyName": "Adyen",
-          "domain": "adyen.com",
-          "contacts": [
-            {
-              "personId": "aaaa537fd969724e534e6f5e",
-              "name": "Mahan Shahi",
-              "linkedin": "https://www.linkedin.com/in/mahanshahi",
-              "email": null
-            },
-            {
-              "personId": "aaaa16c7ca9e34659708bef6",
-              "name": "Hiukwan Tam",
-              "linkedin": "https://www.linkedin.com/in/hiukwantam",
-              "email": null
-            },
-            {
-              "personId": "aaaadf424c60a6ca8d6882a3",
-              "name": "Kane Lu",
-              "linkedin": "https://www.linkedin.com/in/kane-lu-239624103",
-              "email": null
-            }
-          ]
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T18:42:18.259Z"
-    },
-    {
-      "_id": "1780944959059",
-      "seedDomain": "amazon.com",
-      "companies": [
-        {
-          "companyName": "Walmart",
-          "domain": "walmart.com",
-          "contacts": []
-        },
-        {
-          "companyName": "Snapdeal",
-          "domain": "snapdeal.com",
-          "contacts": []
-        },
-        {
-          "companyName": "Marks & Spencer",
-          "domain": "marksandspencer.com",
-          "contacts": []
-        }
-      ],
-      "totalCompanies": 3,
-      "emailsSent": 0,
-      "status": "draft",
-      "outreachPreview": [],
-      "createdAt": "2026-06-08T18:55:59.057Z"
     }
   ]
 }
