@@ -1,5 +1,6 @@
 
 # B2B Automated Outreach Pipeline
+**Live Demo:** https://cold-email-outreach-7yrg.vercel.app/
 
 This is a full-stack system that automates a B2B outreach workflow — from finding companies to generating and sending personalized emails.
 
