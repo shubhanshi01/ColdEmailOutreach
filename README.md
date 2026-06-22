@@ -2,6 +2,12 @@
 # B2B Automated Outreach Pipeline
 **Live Demo:** https://cold-email-outreach-7yrg.vercel.app/
 
+
+
+https://github.com/user-attachments/assets/28452343-7c65-4fb5-8d8e-646416961aa8
+
+
+
 This is a full-stack system that automates a B2B outreach workflow — from finding companies to generating and sending personalized emails.
 
 The idea behind this project is to replicate how modern sales automation tools work (like Apollo, Clay, etc.), but in a simplified and transparent way where every step is visible and reviewable.
