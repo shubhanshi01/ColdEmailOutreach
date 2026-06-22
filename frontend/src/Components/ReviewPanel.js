@@ -121,7 +121,7 @@ function EmailPreview({ item }) {
       </div>
       <div
         style={styles.emailBody}
-        dangerouslySetInnerHTML={{ __html: item.html || "<p>No content</p>" }}
+        dangerouslySetInnerHTML={{ __html: item.htmlContent || "<p>No content</p>" }}
       />
     </div>
   );

@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import PipelineLogs from "./PipelineLogs";
 import ReviewPanel from "./ReviewPanel";
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 function Chatbot() {
   const [domain, setDomain] = useState("");
   const [loading, setLoading] = useState(false);
@@ -9,7 +11,7 @@ function Chatbot() {
   const [preview, setPreview] = useState(null);
 
   useEffect(() => {
-    const eventSource = new EventSource("http://localhost:5000/api/logs");
+    const eventSource = new EventSource(`${API_URL}/api/logs`);
     eventSource.onmessage = (event) => {
       setLogs((prev) => [...prev, event.data]);
     };
@@ -24,7 +26,7 @@ function Chatbot() {
     setPreview(null);
 
     try {
-      const res = await fetch("http://localhost:5000/api/pipeline/run", {
+      const res = await fetch(`${API_URL}/api/pipeline/run`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ domain }),
@@ -44,7 +46,7 @@ function Chatbot() {
 
   const sendEmails = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/email/send", {
+      const res = await fetch(`${API_URL}/api/email/send`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -69,7 +71,7 @@ function Chatbot() {
           <div style={styles.logoBox}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="2"/><path d="M12 2a10 10 0 0 1 7.38 16.75"/><path d="M12 2a10 10 0 0 0-7.38 16.75"/><path d="M12 22a10 10 0 0 0 5.26-1.5"/><path d="M12 22a10 10 0 0 1-5.26-1.5"/>
-            </svg>
+            </svg>                     
           </div>
           <div>
             <div style={styles.title}>Outreach Pipeline</div>
